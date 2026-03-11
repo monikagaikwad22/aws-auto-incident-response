@@ -108,25 +108,25 @@ Once the threshold is crossed:
 
 ---
 
-**Implementation Steps**
+# **Implementation Steps**
 
-1. **EC2 Instance**
+1. # **EC2 Instance**
 
 <img width="1920" height="1008" alt="Instance details _ EC2 _ ap-southeast-1 - Google Chrome 3_11_2026 10_27_33 PM" src="https://github.com/user-attachments/assets/a3d03900-461d-4ed2-b535-93db224aa8af" />
 
-2. **CloudWatch Alarm configuration**
+2. # **CloudWatch Alarm configuration**
  
 ![WhatsApp Image 2026-03-11 at 2 55 24 PM](https://github.com/user-attachments/assets/dd55162c-dca3-4872-9dc6-b0aa329f8cf2)
 
-3. **Lambda function configuration**
+3. # **Lambda function configuration**
 
 ![WhatsApp Image 2026-03-11 at 3 02 58 PM](https://github.com/user-attachments/assets/5eefc5b9-8b28-4f68-9099-7d7121d4c38b)
 
-4. **Alarm trigger event**
+4.  # **Alarm trigger event**
 
 ![WhatsApp Image 2026-03-11 at 3 31 04 PM](https://github.com/user-attachments/assets/1f0a8cfa-2458-469d-8c9d-90cbce1caa8b)
 
-5. **Lambda execution logs**
+5.  # **Lambda execution logs**
 
  ![WhatsApp Image 2026-03-11 at 3 43 40 PM](https://github.com/user-attachments/assets/6eefed12-4907-4fad-b3b9-147f83241504)
 
