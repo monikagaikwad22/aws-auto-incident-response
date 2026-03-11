@@ -110,7 +110,7 @@ Once the threshold is crossed:
 
 # **Implementation Steps**
 
-# 1.  **EC2 Instance**
+# 1.  **Launch EC2 Instance**
 
 <img width="1920" height="1008" alt="Instance details _ EC2 _ ap-southeast-1 - Google Chrome 3_11_2026 10_27_33 PM" src="https://github.com/user-attachments/assets/a3d03900-461d-4ed2-b535-93db224aa8af" />
 
