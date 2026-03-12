@@ -1,0 +1,30 @@
+import boto3
+import json
+
+ec2 = boto3.client('ec2')
+
+def lambda_handler(event, context):
+
+    instance_id = "i-09ee7872e12ad5ba3"
+
+    try:
+        print("CloudWatch Alarm Event:", json.dumps(event))
+        print("Restarting instance:", instance_id)
+
+        ec2.reboot_instances(
+            InstanceIds=[instance_id]
+        )
+
+        print("Instance reboot initiated successfully")
+
+        return {
+            'statusCode': 200,
+            'body': json.dumps('EC2 reboot triggered successfully!')
+        }
+
+    except Exception as e:
+        print("Error occurred:", str(e))
+        return {
+            'statusCode': 500,
+            'body': json.dumps('Error rebooting EC2 instance')
+        }
